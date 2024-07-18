@@ -1,0 +1,425 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #8E3E63;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    top: 0%;
+    color: #fff;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 8px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 2%;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-inline: 1.5rem;
+}
+
+li a:hover{
+    transition: 1ms;
+    color:orange;
+    
+}
+
+.logo {
+    font-size: 1.5rem;
+    display: flex;
+    padding: 12px;
+    gap: 20px;
+}
+.logo img{
+    width: 8%;
+    object-fit: cover;
+}
+.main {
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    margin-top: 156px;
+
+
+}
+
+.main img {
+    width: 600px;
+    margin-top: -82px;
+}
+
+.mainText {
+    margin-top: 33px;
+    color: #ffffff;
+}
+
+.mainText h1 {
+    font-size: 45px;
+}
+
+.mainText p {
+    margin-top: 1.5rem;
+    color: rgb(255, 255, 255);
+
+}
+
+.mainText button {
+    width: 140px;
+    height: 38px;
+   background-color: #773051;
+    color: #fff;
+    border: none;
+    margin-top: 1.5rem;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 11px;
+    border: 2px solid #ffffff54;
+   
+}
+
+.foods {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 56px;
+    justify-content: center;
+
+}
+
+.foods img {
+    width: 100%;
+    border-radius: 11px;
+}
+
+.card {
+    width: 300px;
+    background-color:#e6adc87a;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 11px;
+ 
+}
+
+.card li {
+    
+   margin-top: 10%;
+    display: flex;
+    list-style: none;
+    padding: 12px;
+    align-content: center;
+    justify-content: center;
+    background-color: #e6adc87a;
+    border-radius: 11px;
+    border: 2px solid #43034980;
+}
+.card li:hover{
+    background-color: #b97092;
+    border: 2px solid #43034980;
+
+}
+.card li a{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+.card p {
+    padding: 12px;
+}
+
+.card button {
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    background-color: rgb(17, 181, 110);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+.card button img{
+    width: 20px;
+    margin-right: 6px;
+}
+
+button{
+background-color: #d72a7e(17, 181, 110);
+color: #fff;
+}
+
+.mainbtn{
+width: 100px;
+background-color: rgb(17, 181, 110);
+color: #fff;
+
+}
+
+.mainbtn:hover {
+    background-color:rgb(141, 7, 112);
+    box-shadow: 0px 0px 12px 0px #550548be;
+    color: #ffffff;
+}
+
+ button:hover {
+    color: black;
+    background-color: green;
+}
+.card button:hover{
+    color: black;
+    background-color: green;
+    box-shadow: 0px 0px 12px 0px #550548be;
+}
+
+.head {
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+    font-size: 24px;
+    margin-top: 5%;;
+   
+}
+
+.reviews {
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
+}
+
+.reviewCard {
+    width: 300px;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #ffffff69;
+    border-radius: 12px;
+}
+
+
+.reviews img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #333131;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 5%;
+    
+}
+div>.card{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 11px;
+  
+}
+
+#container>.card-body>.card>img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  
+    
+}   
+
+
+#container>.card-body>.card{
+   
+  color: #440120;
+  font-size: 12px;
+  padding: 30px;
+  width: 200px;
+  height: 300px;
+   
+}
+
+
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blogCard {
+    width: 300px;
+    height: 280px;
+    padding: 12px;
+    margin-top: 1.5rem;
+    margin-inline: 1.5rem;
+    background-color: #fff;
+}
+
+.blogCard img {
+    width: 100%;
+}
+
+.blogCard p {
+    padding: 12px;
+}
+
+.blogCard a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(248, 174, 36);
+    position: relative;
+    top: 12px;
+    padding: 5px 14px;
+}
+
+.blogCard a:hover{
+    color: black;
+    background-color: rgb(226, 109, 67);
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #fff;
+    flex-wrap: wrap;
+    padding: 66px;
+    margin-top: 66px;
+}
+
+.footer .text p {
+    margin-top: 12px;
+}
+
+.cardDetail {
+    width: 600px;
+    position: fixed;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 40%);
+    padding: 22px;
+    background-color: #fff;
+    text-align: center;
+    top: 4%;
+    color: black;
+}
+
+.cardDetail img {
+    width: 300px;
+}
+
+.cardDetail i {
+    position: absolute;
+    background-color: black;
+    color: #fff;
+    left: 0px;
+    top: -1px;
+    padding: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#bar {
+    display: none;
+    font-size: 27px;
+}
+
+
+
+/* responcive */
+
+@media screen and (max-width:1100px) {
+    .main {
+        display: block;
+        text-align: center;
+
+    }
+
+    .main img {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    ul li {
+        display: none;
+    }
+
+    #bar {
+        display: block;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .main img {
+        width: 90%;
+        border-radius: 1.5rem;
+    }
+
+    .cardDetail {
+        width: 80%;
+    }
+
+    .cardDetail img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:930px) {
+    .trendFood {
+        width: 90%;
+    }
+
+    .trends img {
+        width: 160px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .main h1 {
+        font-size: 34px;
+    }
+
+    .mainText {
+        padding: 6px;
+    }
+
+    .trendFood {
+        width: 90%;
+    }
+
+    .trendFood .trends {
+        display: flex;
+        gap: 12px;
+    }
+
+    .trends img {
+        width: 22%;
+        height: 120px;
+    }
+}
